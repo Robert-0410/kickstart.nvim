@@ -2,4 +2,8 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
+--
+-- vim general settings trying to get out of the way for future merges from the parent repo.
+
+vim.o.relativenumber = true
 return {}
