@@ -8,7 +8,6 @@ local platform = vim.loop.os_uname().machine
 
 if (platform == "aarch64")
 then
-  print("Im the PI")
   local P = {
     "neoclide/coc.nvim",
     branch = "master",
